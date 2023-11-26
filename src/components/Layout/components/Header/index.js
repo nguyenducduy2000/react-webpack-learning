@@ -10,9 +10,9 @@ import {
     faSignOut,
     faUser,
 } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
-import { Link } from 'react-router-dom';
 
 import routesConfig from '~/config/routes';
 import Button from '~/components/Button';
